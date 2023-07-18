@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #3b09ed;
+      color: #fff;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header input {
+      height: 30px;
+      width: 50%;
+      outline: none;
+      border-radius: 10px;
+      padding: 5px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    main {
+      padding: 20px;
+      flex-grow: 1;
+    }
+
+    footer {
+      background-color: #f2f2f2;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .search-bar {
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 200px;
+    }
+
+    .footer-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+
+    .footer-links li {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>My Blog</h1>
+    <input placeholder="search" id="searchbox" />
+    <button>Search</button>
+  </header>
+
+  <main>
+    <h2>Content Section</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet, dui in aliquet dignissim, arcu elit
+      dictum tellus, id efficitur sapien lectus vel orci. Nullam at varius neque, eget aliquam erat.</p>
+  </main>
+
+  <footer>
+    <ul class="footer-links">
+      <li><a href="#">Link 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li><a href="#">Link 3</a></li>
+    </ul>
+    <input type="text" class="search-bar" placeholder="Search...">
+  </footer>
+
+</body>
+<script src="
+https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
+"></script>
+
+<script src="./Debounce.js"></script>
+
+
+
+</html>

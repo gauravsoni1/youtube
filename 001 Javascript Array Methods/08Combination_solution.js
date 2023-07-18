@@ -12,6 +12,22 @@ const students = [
 
 // Question 1 : Find the average marks of the people in grade 9
 
+// const sumOfMarksOf9thGrade = students
+//     .filter((student) => student.class === 9)
+//     .reduce((prev, curr, index, arr) => (prev += curr.grades), 0);
+
+// const noOf9thGradeStudents = students.filter(
+//     (student) => student.class === 9
+// ).length;
+
+// const average = sumOfMarksOf9thGrade / noOf9thGradeStudents;
+
+// console.log({ sumOfMarksOf9thGrade, noOf9thGradeStudents, average });
 
 // Question 2: Find the person in Class 6 , and return array in the following wait ["First_name Last_name", "first_name "]
 
+const classs9Sutdents = students
+    .filter((student) => student.class === 9)
+    .map((student) => student.name + " " + student.lastName);
+
+console.log(classs9Sutdents);
