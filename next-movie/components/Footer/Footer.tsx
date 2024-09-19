@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 p-6">
-      <div className="lg:block md:hidden">
+    <footer className="grid grid-cols-4 p-6">
+      <div>
         <Image src="/images/logo.png" alt="img" width="60" height="60" />
       </div>
       <div className="ml-4">
