@@ -15,13 +15,13 @@ const Appbar = () => {
   return (
     <header className="sticky top-0 flex h-16 items-center justify-between gap-4 border-b bg-background px-4 md:px-6">
       <nav className="flex gap-6 text-lg font-medium">
-        <Link className="text-lg font-semibold md:text-base" href="#">
+        <Link className="text-lg font-semibold md:text-base" href="/">
           Movies
         </Link>
-        <Link className="text-lg font-semibold md:text-base" href="#">
+        <Link className="text-lg font-semibold md:text-base" href="/fnb">
           Food & Beverage
         </Link>
-        <Link className="text-lg font-semibold md:text-base" href="#">
+        <Link className="text-lg font-semibold md:text-base" href="/offers">
           Offers
         </Link>
       </nav>
