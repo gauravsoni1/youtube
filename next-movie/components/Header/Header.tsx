@@ -11,7 +11,7 @@ import {
   DropdownMenuSeparator,
 } from "@radix-ui/react-dropdown-menu";
 
-const Appbar = () => {
+const Header = () => {
   return (
     <header className="sticky top-0 flex h-16 items-center justify-between gap-4 border-b bg-background px-4 md:px-6">
       <nav className="flex gap-6 text-lg font-medium">
@@ -44,4 +44,4 @@ const Appbar = () => {
   );
 };
 
-export default Appbar;
+export default Header;
